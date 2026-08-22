@@ -56,7 +56,7 @@
       "type": "emoji",
       "value": "🎮"
     },
-    "visible": false,
+    "visible": true,
     "action": {
       "type": "route",
       "route": "game1_match3"
