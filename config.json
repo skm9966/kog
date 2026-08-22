@@ -8,7 +8,7 @@
   },
 
   "remoteControl": {
-    "appEnabled": false,
+    "appEnabled": true,
     "maintenance": {
       "enabled": false,
       "title": "Maintenance",
