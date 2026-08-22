@@ -64,7 +64,7 @@
       {
         "id": "exit_game",
         "label": "EXIT GAME",
-        "icon": "🚪",
+        "icon": "https://i.pinimg.com/736x/d7/9f/2f/d79f2f05de6fc785cda188d851c9cd1d.jpg",
         "visible": true,
         "action": {
           "type": "exit"
