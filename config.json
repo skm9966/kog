@@ -76,7 +76,15 @@
       }
     ]
   },
-
+"splash": {
+  "background": {
+    "type": "image",
+    "imageUrl": "https://i.pinimg.com/736x/d7/9f/2f/d79f2f05de6fc785cda188d851c9cd1d.jpg",
+    "fit": "cover"
+  },
+  "loadingText": "Loading configuration...",
+  "readyText": "Ready!"
+},
   "games": {
     "game1_match3": {
       "enabled": true,
