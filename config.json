@@ -80,7 +80,7 @@
   "enabled": true,
   "background": {
     "type": "image",
-    "imageUrl": "https://....jpg",
+    "imageUrl": "https://i.pinimg.com/736x/d7/9f/2f/d79f2f05de6fc785cda188d851c9cd1d.jpg",
     "overlay": {
       "enabled": true,
       "color": "#99000000"
@@ -88,7 +88,7 @@
   },
   "logo": {
     "enabled": true,
-    "url": "https://....png"
+    "url": "https://i.pinimg.com/736x/d7/9f/2f/d79f2f05de6fc785cda188d851c9cd1d.jpg"
   },
   "loadingText": "Loading configuration..."
 }
