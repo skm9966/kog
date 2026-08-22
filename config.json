@@ -42,6 +42,10 @@
   },
 
   "home": {
+    "background": {
+    "type": "image",
+    "useSplashBackground": true
+  },
     "logoAsset": "garuda_logo",
 
     "buttons": [
