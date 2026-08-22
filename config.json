@@ -75,34 +75,7 @@
   }
 },
 
-  {
-    "id": "telegram",
-    "label": "Telegram",
-    "icon": {
-      "type": "url",
-      "value": "https://your-image-url/telegram.png"
-    },
-    "visible": true,
-    "action": {
-      "type": "url",
-      "url": "https://t.me/winnerxx_bot"
-    }
-  },
 
-  {
-    "id": "viber",
-    "label": "Viber",
-    "icon": {
-      "type": "asset",
-      "value": "viber_icon"
-    },
-    "visible": true,
-    "action": {
-      "type": "url",
-      "url": "viber://chat?number=%2B959123456789",
-      "fallbackUrl": "https://www.viber.com/"
-    }
-  }
 ]
   },
 
