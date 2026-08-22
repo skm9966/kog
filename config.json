@@ -49,22 +49,28 @@
     "logoAsset": "garuda_logo",
 
     "buttons": [
-      {
-        "id": "play_game",
-        "label": "PLAY GAME",
-        "icon": "🎮",
-        "visible": true,
-        "action": {
-          "type": "route",
-          "route": "game1_match3"
-        }
-      },
+     {
+  "id": "play_game",
+  "label": "PLAY GAME",
+  "icon": {
+    "type": "enoji",
+    "value": "🎮"
+  },
+  "visible": true,
+  "action": {
+    "type": "route",
+    "route": "game1_match3"
+  }
+},
 
    
       {
         "id": "exit_game",
         "label": "EXIT GAME",
-        "icon": "https://i.pinimg.com/736x/d7/9f/2f/d79f2f05de6fc785cda188d851c9cd1d.jpg",
+        "icon": {
+  "type": "asset",
+  "value": "telegram_icon"
+},
         "visible": true,
         "action": {
           "type": "exit"
