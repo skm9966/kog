@@ -1,19 +1,44 @@
 {
   "version": 1,
 
-  "app": {
-    "name": "King of Garuda",
-    "title": "KING OF GARUDA",
-    "subtitle": "Triple Match Game"
+  "splash": {
+    "enabled": true,
+
+    "background": {
+      "type": "image",
+      "imageUrl": "https://your-image-url.com/splash.jpg",
+      "fit": "cover"
+    },
+
+    "loadingText": "Loading configuration...",
+    "readyText": "Ready!"
   },
 
   "remoteControl": {
     "appEnabled": true,
+
     "maintenance": {
       "enabled": false,
       "title": "Maintenance",
-      "message": "Please try again later."
+      "message": "Server upgrade in progress. Please try again later."
+    },
+
+    "update": {
+      "enabled": true,
+      "force": false,
+      "minVersionCode": 2,
+      "latestVersionName": "1.0.1",
+      "title": "Update Available",
+      "message": "A newer version is available.",
+      "androidStoreUrl": "https://play.google.com/store/apps/details?id=com.buffalo.fungames",
+      "fallbackUrl": "https://your-site.com/download"
     }
+  },
+
+  "app": {
+    "name": "King of Garuda",
+    "title": "KING OF GARUDA",
+    "subtitle": "Triple Match Game"
   },
 
   "home": {
@@ -30,6 +55,7 @@
           "route": "game1_match3"
         }
       },
+
       {
         "id": "telegram",
         "label": "Telegram",
@@ -65,6 +91,7 @@
           "fallbackUrl": "https://example.com"
         }
       },
+
       {
         "id": "exit_game",
         "label": "EXIT GAME",
@@ -76,25 +103,11 @@
       }
     ]
   },
-"splash": {
-  "enabled": true,
-  "background": {
-    "type": "image",
-    "imageUrl": "https://i.pinimg.com/736x/d7/9f/2f/d79f2f05de6fc785cda188d851c9cd1d.jpg",
-    "overlay": {
-      "enabled": true,
-      "color": "#99000000"
-    }
-  },
-  "logo": {
-    "enabled": true,
-    "url": "https://i.pinimg.com/736x/d7/9f/2f/d79f2f05de6fc785cda188d851c9cd1d.jpg"
-  },
-  "loadingText": "Loading configuration..."
-}
+
   "games": {
     "game1_match3": {
       "enabled": true,
+
       "title": "Fruit Match",
 
       "board": {
