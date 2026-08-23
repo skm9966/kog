@@ -66,7 +66,7 @@
   "id": "exit_game",
   "label": "EXIT GAME",
   "icon": {
-    "type": "url",
+    "type": "emoji",
     "value": ""
   },
   "visible": true,
