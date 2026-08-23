@@ -54,7 +54,7 @@
     "label": "PLAY GAME",
     "icon": {
       "type": "emoji",
-      "value": "🎮"
+      "value": ""
     },
     "visible": true,
     "action": {
@@ -67,7 +67,7 @@
   "label": "EXIT GAME",
   "icon": {
     "type": "url",
-    "value": "https://i.pinimg.com/736x/0a/50/c1/0a50c1516e434e0108649d2987cfaeb0.jpg"
+    "value": ""
   },
   "visible": true,
   "action": {
